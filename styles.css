@@ -20,6 +20,23 @@
     --shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.15);
     --border-radius: 8px;
     --transition: all 0.2s ease;
+    --font-size-base: 16px;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+    --primary-color: #ffffff;
+    --secondary-color: #a1a1aa;
+    --accent-color: #3b82f6;
+    --background-color: #09090b;
+    --surface-color: #18181b;
+    --border-color: #27272a;
+    --hover-color: #27272a;
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+    --shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3);
+    --shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -27,9 +44,23 @@ body {
     line-height: 1.6;
     color: var(--text-primary);
     background-color: var(--background-color);
-    font-size: 16px;
+    font-size: var(--font-size-base);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Font size variations */
+body.font-small {
+    --font-size-base: 14px;
+}
+
+body.font-large {
+    --font-size-base: 18px;
+}
+
+body.font-xl {
+    --font-size-base: 20px;
 }
 
 .container {
@@ -47,6 +78,63 @@ body {
     text-align: center;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 60px;
+    position: relative;
+}
+
+/* Controls */
+.controls {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.font-controls {
+    display: flex;
+    gap: 4px;
+}
+
+.control-btn {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: inherit;
+    min-width: 40px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-btn:hover {
+    background-color: var(--hover-color);
+    border-color: var(--accent-color);
+    color: var(--text-primary);
+}
+
+.control-btn:active {
+    transform: scale(0.95);
+}
+
+#theme-toggle {
+    font-size: 16px;
+    min-width: 44px;
+}
+
+.theme-icon {
+    transition: var(--transition);
+}
+
+[data-theme="dark"] .theme-icon {
+    transform: rotate(180deg);
 }
 
 .header-content {
@@ -315,6 +403,14 @@ body {
     .header {
         padding: 60px 0 40px 0;
         margin-bottom: 40px;
+    }
+    
+    .controls {
+        position: relative;
+        top: 0;
+        right: 0;
+        justify-content: center;
+        margin-bottom: 20px;
     }
     
     .name {
