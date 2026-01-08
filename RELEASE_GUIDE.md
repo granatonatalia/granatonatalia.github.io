@@ -123,4 +123,4 @@ git pull origin main
 
 ---
 
-**Nota**: Este guia foi preparado automaticamente como parte da issue de criação de release do projeto.
+**Nota**: Este guia foi preparado como parte da issue de criação de release do projeto.

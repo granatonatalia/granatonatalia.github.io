@@ -1,6 +1,6 @@
 # Release v1.0.0 - Portfolio Website Natalia Granato
 
-**Data de Lançamento**: 08 de Janeiro de 2026
+**Data de Lançamento**: Janeiro de 2026
 
 ## 🎉 Primeira Release Oficial
 
