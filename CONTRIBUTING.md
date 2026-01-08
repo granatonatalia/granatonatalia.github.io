@@ -1,4 +1,4 @@
-# Contribuindo para granatonatilia.github.io
+# Contribuindo para granatonatalia.github.io
 
 Obrigada por seu interesse em contribuir com meu site portfolio! Este documento descreve o processo e as diretrizes para contribuição.
 
