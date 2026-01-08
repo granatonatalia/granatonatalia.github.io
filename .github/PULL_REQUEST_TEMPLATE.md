@@ -9,7 +9,7 @@ Descreva brevemente as mudanças implementadas neste PR.
 - [ ] 🔧 Refatoração (mudança de código que não corrige bug nem adiciona funcionalidade)
 
 ## Issue Relacionada
-Fixes #(issue number)
+Fixes #123
 
 **⚠️ IMPORTANTE: Todo PR deve estar relacionado a uma issue. Se não existe uma issue para este PR, por favor crie uma antes de abrir o PR.**
 
