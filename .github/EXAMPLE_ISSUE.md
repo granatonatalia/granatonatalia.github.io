@@ -47,7 +47,7 @@ Implementar um workflow obrigatório que inclua:
 - Code review mais eficiente
 
 ## Observações Adicionais
-Esta issue foi criada em resposta ao PR #5, que identificou a necessidade de estabelecer este workflow. É um exemplo prático de como o processo deveria funcionar: primeiro a issue, depois o PR que a resolve.
+Esta issue foi criada em resposta ao PR correspondente, que identificou a necessidade de estabelecer este workflow. É um exemplo prático de como o processo deveria funcionar: primeiro a issue, depois o PR que a resolve.
 
 ## Labels Sugeridas
 - `enhancement`
@@ -57,4 +57,4 @@ Esta issue foi criada em resposta ao PR #5, que identificou a necessidade de est
 
 ---
 
-**Nota**: Esta issue deveria ser criada no GitHub antes ou junto com o PR #5 para seguir o workflow proposto. Como demonstração, ela está sendo documentada aqui como exemplo.
+**Nota**: Esta issue deveria ser criada no GitHub antes ou junto com o PR correspondente para seguir o workflow proposto. Como demonstração, ela está sendo documentada aqui como exemplo.

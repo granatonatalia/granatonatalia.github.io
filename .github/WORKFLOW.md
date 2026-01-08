@@ -26,7 +26,7 @@ Estabelecer um processo claro e organizado onde **toda mudança de código deve 
 
 ### 1. Antes de começar qualquer desenvolvimento
 
-```mermaid
+````mermaid
 graph TD
     A[Identifique a necessidade] --> B{Existe issue?}
     B -->|Não| C[Crie nova issue]
@@ -35,7 +35,7 @@ graph TD
     D --> E
     E --> F[Desenvolva a solução]
     F --> G[Abra PR referenciando a issue]
-```
+````
 
 ### 2. Criando uma Issue
 
@@ -48,7 +48,7 @@ Use o template de issue disponível e inclua:
 ### 3. Desenvolvendo a solução
 
 1. **Fork** o repositório
-2. **Crie uma branch** descritiva: `feature/issue-X-nome-funcionalidade`
+2. **Crie uma branch** descritiva: `feature/issue-X-feature-name`
 3. **Desenvolva** seguindo as diretrizes de código
 4. **Teste** localmente
 
