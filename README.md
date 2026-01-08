@@ -1,60 +1,35 @@
-# granatonatalia.github.io
+# Portfolio Website - Natalia Granato
 
-Site portfolio pessoal de Natalia Granato - Software Developer.
+Site de portfólio pessoal desenvolvido com HTML5, CSS3 e JavaScript puro, apresentando um design moderno, responsivo e acessível.
 
 ## 🌐 Site ao Vivo
-Visite: [nataliagranato.me](https://nataliagranato.me)
+**URL**: https://nataliagranato.me/
 
-## 📋 Sobre o Projeto
-Site portfolio minimalista desenvolvido com tecnologias web modernas, inspirado no design clean da Vercel. Apresenta informações profissionais, habilidades, projetos e experiência de forma acessível e responsiva.
+## ✨ Funcionalidades
+- Design responsivo e minimalista
+- Modo escuro/claro com toggle
+- Controles de acessibilidade (tamanho da fonte)
+- Animações suaves com scroll
+- SEO otimizado
+- Carregamento rápido
 
-### ✨ Funcionalidades
-- 🌙 **Modo escuro/claro** com alternância suave
-- 📱 **Design responsivo** otimizado para todos os dispositivos  
-- ♿ **Controles de acessibilidade** com ajuste de tamanho de fonte
-- 🎨 **Animações sutis** para melhor experiência do usuário
-- ⚡ **Performance otimizada** com CSS e JavaScript vanilla
-
-### 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
 - HTML5 semântico
-- CSS3 com Grid e Flexbox
+- CSS3 com variáveis customizadas
 - JavaScript vanilla (ES6+)
-- GitHub Pages para hospedagem
+- GitHub Pages para deploy
 
-## 🤝 Contribuindo
+## 📁 Documentação
+Para informações detalhadas sobre desenvolvimento, consulte:
+- `@project_context.md` - Instruções completas para Cursor/Claude
+- `.github/copilot-instructions.md` - Instruções do GitHub Copilot
 
-**⚠️ IMPORTANTE**: Todo PR deve estar relacionado a uma issue existente.
-
-1. Crie ou encontre uma issue que descreva o problema/funcionalidade
-2. Faça fork do repositório
-3. Crie uma branch com nome descritivo
-4. Faça suas mudanças seguindo as diretrizes
-5. Abra um PR referenciando a issue com `Fixes #issue-number`
-
-Para mais detalhes, consulte o [Guia de Contribuição](CONTRIBUTING.md).
-
-## 📁 Estrutura do Projeto
-```
-├── index.html          # Estrutura HTML principal
-├── styles.css          # Estilos CSS com suporte a temas
-├── script.js           # Funcionalidades JavaScript
-├── favicon.svg         # Ícone do site
-├── CONTRIBUTING.md     # Guia de contribuição
-└── .github/           # Templates GitHub
-    ├── ISSUE_TEMPLATE.md
-    └── PULL_REQUEST_TEMPLATE.md
+## 🚀 Desenvolvimento Local
+```bash
+# Servir localmente
+python3 -m http.server 8000
+# Ou
+npx serve .
 ```
 
-## 🎨 Design System
-- **Tipografia**: Inter font family
-- **Cores**: Sistema de cores com suporte a tema claro/escuro
-- **Layout**: Design centrado com largura máxima de 800px
-- **Responsividade**: Mobile-first approach
-
-## 📞 Contato
-- Website: [nataliagranato.me](https://nataliagranato.me)
-- GitHub: [@granatonatalia](https://github.com/granatonatalia)
-
----
-
-💡 **Lembre-se**: Sempre crie uma issue antes de abrir um PR para manter um workflow organizado!
+Acesse: `http://localhost:8000`
