@@ -259,7 +259,7 @@ novosElementos.forEach(elemento => {
 });
 ```
 
-## Troubleshooting Comum
+## Troubleshooting
 
 ### Fontes não carregam
 - Verificar se o Google Fonts está acessível
@@ -281,6 +281,3 @@ Para questões sobre este projeto, contactar:
 - **LinkedIn**: https://linkedin.com/in/nataliagranato
 
 ---
-
-**Última atualização**: Setembro 2024
-**Versão do documento**: 1.0
