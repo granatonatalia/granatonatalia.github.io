@@ -1,5 +1,7 @@
 # Portfolio Website - Natalia Granato
 
+[![GitHub release](https://img.shields.io/github/v/release/granatonatalia/granatonatalia.github.io)](https://github.com/granatonatalia/granatonatalia.github.io/releases)
+
 Site de portfólio pessoal desenvolvido com HTML5, CSS3 e JavaScript puro, apresentando um design moderno, responsivo e acessível.
 
 ## 🌐 Site ao Vivo
@@ -21,8 +23,14 @@ Site de portfólio pessoal desenvolvido com HTML5, CSS3 e JavaScript puro, apres
 
 ## 📁 Documentação
 Para informações detalhadas sobre desenvolvimento, consulte:
+- `CHANGELOG.md` - Histórico de mudanças e versões
+- `CONTRIBUTING.md` - Guia de contribuição
 - `@project_context.md` - Instruções completas para Cursor/Claude
 - `.github/copilot-instructions.md` - Instruções do GitHub Copilot
+- `.github/WORKFLOW.md` - Workflow de desenvolvimento
+
+## 📦 Releases
+Confira as [releases do projeto](https://github.com/granatonatalia/granatonatalia.github.io/releases) para ver o histórico de versões e mudanças.
 
 ## 🚀 Desenvolvimento Local
 ```bash
