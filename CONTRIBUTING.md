@@ -46,14 +46,16 @@ Obrigada por seu interesse em contribuir com meu site portfolio! Este documento 
 ### 4. Estrutura do Projeto
 
 ```
-├── index.html          # Estrutura HTML principal
-├── styles.css          # Todos os estilos CSS
-├── script.js           # Funcionalidade JavaScript
-├── favicon.svg         # Ícone do site
-├── CNAME              # Configuração de domínio customizado
-└── .github/           # Templates e configurações do GitHub
+├── index.html           # Estrutura HTML principal
+├── styles.css           # Todos os estilos CSS
+├── script.js            # Funcionalidade JavaScript
+├── favicon.svg          # Ícone do site
+├── CNAME                # Configuração de domínio customizado
+└── .github/             # Templates e configurações do GitHub
     ├── ISSUE_TEMPLATE.md
-    └── PULL_REQUEST_TEMPLATE.md
+    ├── PULL_REQUEST_TEMPLATE.md
+    ├── WORKFLOW.md
+    └── EXAMPLE_ISSUE.md
 ```
 
 ### 5. Testando Suas Mudanças
